@@ -35,10 +35,10 @@ incorrect = (y_test != X_test_pred).sum()
 
 
 # Print results
-# print(f"Results for model {type(classifier_model).__name__}")
-# print(f"Correct: {correct}")
-# print(f"Incorrect: {incorrect}")
-# print(f"Accuracy: {test_data_accuracy * 100:.2f}%")
+print(f"Results for model {type(classifier_model).__name__}")
+print(f"Correct: {correct}")
+print(f"Incorrect: {incorrect}")
+print(f"Accuracy: {test_data_accuracy * 100:.2f}%")
 
 
 # Example: 
